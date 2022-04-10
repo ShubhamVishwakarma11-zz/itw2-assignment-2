@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<%- include('partials/head')%>
+
+<body>
+    <%- include('partials/navbar')%>
+      
+      <!-- Title Section -->
+      <section class="colored-section" id="title">
+        <div class="container-fluid">
+                <div class="row title-container">
+                    <div class="col-7 ">
+                        <div class="title-text">
+                            <h1> Hola! <%=loggedIn? userData.name : "" %> </h1>
+                            <h3> Book Yard is here for You!</h3>
+                            <h5> Purchase second hand books with 30% off on the MRP and 50% cashback on return</h5>
+                            <p><em>Visit us at Book Street, Kitabinagar</em></p>
+                        </div>
+                        
+                    </div>
+                    <div class="col-5">
+                        <img src="images/title-img.png" alt="title-img" class="title-img">
+                    </div>
+                </div>
+        </div>
+      </section>
+
+      <!-- Features Section -->
+      <section id="features">
+          <div class="container-fluid">
+              <div class="features-section-top">
+                <h2> Only Benefits for You!</h2>
+                <h5> A whole bunch of benefits for our lovely book worms</h5>
+              </div>
+              <div class="features-section-bottom">
+                <div class="row">
+                    <div class="col-4 feature-card">
+                        <i class="fas fa-money-bill-wave feature-icon"></i>
+                        <h5> Low Price </h5>
+                        <p> Purchase your favourite books at 25% discount.</p>
+                    </div>
+                    <div class="col-4 feature-card">
+                        <i class="fas fa-book feature-icon"></i>
+                        <h5> Large Library </h5>
+                        <p> A library of more than 25,000 books.</p>
+                    </div>
+                    <div class="col-4 feature-card">
+                        <i class="fas fa-user feature-icon"></i>
+                        <h5> Gold Membership </h5>
+                        <p> Get extra 10% discount by becoming a gold member.</p>
+                    </div>
+                </div>
+              </div>
+              
+          </div>
+      </section>
+
+    <%- include("partials/footer")%>
+
+
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand navigation-bar" id="navigation">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="/home">
+            <img src="/images/logo.png" alt="" width="20" height="auto" class="brand-logo">
+            <span class="brand-text">Book Yard</span>
+        </a>
+      <div class="navigation-bar-items">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="/explore">Explore</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about-us">About Us</a>
+            </li>
+
+            <% if (loggedIn === false) {%>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="/signup">Sign Up</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/login">Login</a>
+                </li> 
+            <%} else {%>
+                <li class="nav-item">
+                  <a class="nav-link" href="/book/add">Add Book</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/logout">Log Out</a>
+                </li> 
+            <%}%>
+          </ul>
+      </div>
+    </div>
+  </nav>

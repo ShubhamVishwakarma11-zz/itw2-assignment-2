@@ -1,0 +1,16 @@
+{
+  "name": "itw2-assignment-2",
+  "version": "1.0.0",
+  "description": "In this assignment, I have added backend to my existing site submitted in assignment-1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shubham Vishwakarma",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "uuid": "^8.3.2"
+  }
+}

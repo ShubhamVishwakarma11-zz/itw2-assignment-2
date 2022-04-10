@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<%- include('partials/head')%>
+
+<body>
+    <%- include('partials/navbar')%> 
+
+      <!-- Title Section -->
+      <section class="signup-section ">
+        <div class="container-fluid">
+            <div class="title-container">
+                <div class="signup-container">
+                    <h3> Add your book to sell online</h3>
+                    <br>
+                    
+                    <form action="/book/add" method="post">
+                        <!-- Book Name -->
+                        <div class="row form-element">
+                            <div class="col-3">
+                                <label for="book_name" class="form-label"><h5>Book Name</h5></label>
+                            </div>
+                            <div class="col-9">
+                                <input type="text" class="form-control" id="book_name" name="book_name">
+                            </div>
+                        </div>
+                        <!-- Book Price -->
+                        <div class="row form-element">
+                            <div class="col-3">
+                                <label for="book_price" class="form-label"><h5>Price (in INR)</h5></label>
+                            </div>
+                            <div class="col-4">
+                                <input type="text" class="form-control" id="book_price" name="book_price">
+                            </div>
+                        </div>
+                        <!-- Book Author -->
+                        <div class="row form-element">
+                            <div class="col-3">
+                                <label for="book_author" class="form-label"><h5>Author</h5></label>
+                            </div>
+                            <div class="col-9">
+                                <input type="text" class="form-control" id="book_author" name="book_author">
+                            </div>
+                        </div>
+                        <!-- Book Author -->
+                        <div class="row form-element">
+                            <div class="col-3">
+                                <label for="book_img_link" class="form-label"><h5>Book Cover Image Link</h5></label>
+                            </div>
+                            <div class="col-9">
+                                <input type="text" class="form-control" id="book_img_link" name="book_img_link">
+                            </div>
+                        </div>
+                        <!-- Book Collection -->
+                        <div class="row form-element">
+                            <div class="col-6">
+                                <label for="book_collection" class="form-label"><h5>Which of the following collection best fits your book?</h5></label>
+                            </div>
+                            <div class="col-6">
+                                <select class="form-select" name="book_collection" aria-label="Default select example">
+                                    <option selected> None </option>
+                                    <option value="comics">Comics</option>
+                                    <option value="novels">Novels</option>
+                                    <option value="academic-books">Academic Books</option>
+                                  </select>
+                            </div>
+                        </div>
+                        <button class="btn signup-btn" type="submit">Add Book</button>
+                      </form>
+                </div>
+            </div>
+        </div>
+      </section>
+
+
+          <%- include('partials/footer')%>
+
+
+</body>
+</html>

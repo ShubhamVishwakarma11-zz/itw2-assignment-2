@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<%- include('partials/head')%>
+
+<body>
+    <%- include('partials/navbar')%>
+
+      <!-- Title Section -->
+      <section class="signup-section ">
+        <div class="container-fluid">
+            <div class="title-container">
+                <div class="login-container">
+                    <h3> Log in back to your account!</h3>
+                    <form action="/login" method="post">
+                        <div class="row form-element">
+                            <div class="col-3">
+                                <label for="LoginUsername" class="form-label"><h5>Username</h5></label>
+                            </div>
+                            <div class="col-9">
+                                <input type="text" class="form-control" id="LoginUsername" name="LoginUsername">
+                            </div>
+                        </div>
+                        <div class="row form-element">
+                            <div class="col-3">
+                                <label for="LoginPassword" class="form-label"><h5>Password</h5></label>
+                            </div>
+                            <div class="col-9">
+                                <input type="password" class="form-control" id="LoginPassword" name="LoginPassword">
+                            </div>
+                        </div>
+                        <button type="submit" class="btn login-btn">Login</button>
+                      </form>
+                </div>
+            </div>
+        </div>
+      </section>
+      
+      <%- include("partials/footer")%>
+
+
+</body>
+</html>

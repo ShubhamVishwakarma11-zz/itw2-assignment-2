@@ -1,0 +1,102 @@
+{
+    "name": "Novels",
+    "total_books": 16,
+    "books": [
+        {
+            "title": "The Power of Mimetic Desire in Everyday Life",
+           "author": "Luke Burgis",
+           "price": "500 INR" ,
+           "img_link": "https://images-us.bookshop.org/ingram/9781250262486.jpg?height=500&v=v2"
+        },
+        {
+            "title": "The psychology of Money",
+           "author": "Morgan Housel",
+           "price": "400 INR" ,
+           "img_link":"https://images-us.bookshop.org/ingram/9780857197689.jpg?height=500&v=v2"
+        },
+        {
+            "title": "Us and Them: The Science of Identity",
+           "author": "David Berreby",
+           "price": "300 INR" ,
+           "img_link": "https://images-us.bookshop.org/ingram/9780226044651.jpg?height=500&v=v2"
+        }, 
+        {
+            "title": "Subtract: The Untapped Science of Less",
+           "author": "Leidy Klotz",
+           "price": "600 INR" ,
+           "img_link": "https://images-us.bookshop.org/ingram/9781250249869.jpg?height=500&v=v2"
+        },
+        {
+            "title": "Think Again: The Power of Knowing What You Don't Know",
+           "author": "Adam Grant",
+           "price": "500 INR" ,
+           "img_link": "https://images-us.bookshop.org/ingram/9781984878106.jpg?height=500&v=v2"
+        },
+        {
+            "title": "The knowledge Gap",
+           "author": "Natalie Wexler",
+           "price": "300 INR" ,
+           "img_link": "https://images-us.bookshop.org/ingram/9780735213562.jpg?height=500&v=v2"
+        },
+        {
+            "title": "The Hidden Spring: A Journey to the Source of Consciousness",
+           "author": "Mark Solms",
+           "price": "700 INR" ,
+           "img_link": "https://images-us.bookshop.org/ingram/9780393542011.jpg?height=500&v=v2"
+        },
+        {
+            "title": "How to Change",
+           "author": "Katy Milkman",
+           "price": "700 INR" ,
+           "img_link":"https://images-us.bookshop.org/ingram/9780593083758.jpg?height=500&v=v2-504a558d112932eede17e9b3977e0135"
+        },
+        {
+            "title": "Escape from Freedom",
+           "author": "Erich Fromm",
+           "price": "300 INR" ,
+           "img_link": "https://images-us.bookshop.org/ingram/9780805031492.jpg?height=500&v=v2"
+        },
+        {
+            "title": "Dopamine Nation: Finding Balance in the Age of Indulgence",
+           "author": "Anna Lembke",
+           "price": "700 INR" ,
+           "img_link": "https://images-us.bookshop.org/ingram/9781524746728.jpg?height=500&v=v2-469e19e2d1cf7c010a9aa86409d9c97c"
+        },
+        {
+            "title": "Courage Is Calling: Fortune Favors the Brave",
+           "author": "Ryan Holiday",
+           "price": "500 INR" ,
+           "img_link":"https://images-us.bookshop.org/ingram/9780593191675.jpg?height=500&v=v2"
+        },
+        {
+            "title": "Wintering: The Power of Rest and Retreat in Difficult Times",
+           "author": "Katherine May",
+           "price": "500 INR" ,
+           "img_link": "https://images-us.bookshop.org/ingram/9780593189481.jpg?height=500&v=v2"
+        },
+        {
+            "title": "Unwinding Anxiety",
+           "author": "Judson Brewer",
+           "price": "500 INR" ,
+           "img_link": "https://images-us.bookshop.org/ingram/9780593330449.jpg?height=500&v=v2"
+        },
+        {
+            "title": "The World-Ending Fire: The Essential Wendell Berry",
+           "author": "Wendell Berry",
+           "price": "300 INR" ,
+           "img_link": "https://images-us.bookshop.org/ingram/9781640091979.jpg?height=500&v=v2"
+        },
+        {
+            "title": "The Shallows: What the Internet Is Doing to Our Brains",
+           "author": "Nicholas Carr",
+           "price": "400 INR" ,
+           "img_link": "https://images-us.bookshop.org/ingram/9780393357820.jpg?height=500&v=v2"
+        },
+        {
+            "title": "Pity the Beast",
+            "author": "Robin Mclean",
+            "price": "400 INR" ,
+            "img_link": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1636887486l/58468365.jpg"
+        }
+    ]
+}

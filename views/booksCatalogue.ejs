@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<%- include('partials/head')%>
+
+<body>
+    <%- include('partials/navbar')%>
+
+      <section class="signup-section ">
+        <div class="container-fluid">
+            <div class="title-container">
+              <h3> <%=collection.name%> Collection.</h3>
+              <p> Total Books: <b> <%=collection.total_books%> </b></p>
+
+              <!-- Comics -->
+              <div class="card-deck">
+                <div class="row">
+
+
+                  <%for (let book of collection.books) {%>
+                    <!-- Book Card -->
+                    <div class="col-3 book-card">
+                      <a href="/book/<%=category%>/<%=book.id%>">
+                          <div class="book-img-container">
+                            <img class = "book-img" src="<%=book.img_link%>" alt="book-img">
+                          </div>
+                          <div class="book-text">
+                            <h5 class="book-title"> <%=book.title%></h5>
+                            <p> ~ <em><%=book.author%></em></p>
+                            <p> Price: <%=book.price%></p>
+                          </div>
+                      </a>
+                    </div>
+                  <%}%>
+
+                </div>
+              </div>
+              
+          </div>
+        </div>
+      </section>
+
+
+
+      <%- include("partials/footer")%>
+
+
+</body>
+</html>

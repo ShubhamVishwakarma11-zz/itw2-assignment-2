@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<%- include('partials/head')%>
+
+<body>
+    <%- include('partials/navbar')%> 
+
+      <!-- Title Section -->
+      <section class="signup-section ">
+        <div class="container-fluid">
+            <div class="title-container">
+                <div class="signup-container">
+                    <h3> Sign Up with Us!</h3>
+                    <br>
+                    <form action="/signup" method="post">
+                        <!-- Name -->
+                        <div class="row form-element">
+                            <div class="col-3">
+                                <label for="name" class="form-label"><h5>Name</h5></label>
+                            </div>
+                            <div class="col-9">
+                                <input type="text" class="form-control" id="name" name="name">
+                            </div>
+                        </div>
+                        <!-- Username -->
+                        <div class="row form-element">
+                            <div class="col-3">
+                                <label for="username" class="form-label"><h5>Username</h5></label>
+                            </div>
+                            <div class="col-9">
+                                <input type="text" class="form-control" id="username" name="username">
+                            </div>
+                        </div>
+                        <!-- Email -->
+                        <div class="row form-element">
+                            <div class="col-3">
+                                <label for="email" class="form-label"><h5>Email</h5></label>
+                            </div>
+                            <div class="col-9">
+                                <input type="email" class="form-control" id="email" name="email">
+                            </div>
+                        </div>
+                        <!-- Password -->
+                        <div class="row form-element">
+                            <div class="col-3">
+                                <label for="password" class="form-label"><h5>Password</h5></label>
+                            </div>
+                            <div class="col-9">
+                                <input type="password" class="form-control" id="password" name="password">
+                            </div>
+                        </div>
+                        <button class="btn signup-btn" type="submit">Sign Up</button>
+                      </form>
+                </div>
+            </div>
+        </div>
+      </section>
+
+
+          <%- include('partials/footer')%>
+
+
+</body>
+</html>

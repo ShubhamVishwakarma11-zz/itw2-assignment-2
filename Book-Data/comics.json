@@ -1,0 +1,91 @@
+{
+    "name": "Comics",
+    "total_books": 14,
+    "books": [
+        {
+            "title": "A Man's Skin",
+            "author": "Hubert",
+            "price": "500 INR" ,
+            "img_link": "https://images-us.bookshop.org/ingram/9781950912483.jpg?height=500&v=v2"
+        },
+        {
+            "title": "Masters of the Universe Book",
+            "author": "Simon Beecroft",
+            "price": "600 INR" ,
+            "img_link": "https://images-us.bookshop.org/ingram/9780744027228.jpg?height=500&v=v2-c57d91c817bcaba4aaf87cc76642fda"
+        },
+        {
+            "title": "The Art of the Android Universe",
+            "author": "Asmodee",
+            "price": "900 INR" ,
+            "img_link": "https://images-us.bookshop.org/ingram/9781506725550.jpg?height=500&v=v2"
+        },
+        {
+            "title": "Menopause- A Comic Treatment",
+               "author": "Mk Czerwiec",
+               "price": "600 INR" ,
+               "img_link": "https://images-us.bookshop.org/ingram/9781637790106.jpg?height=500&v=v2-fe356277267a535a44724ae9240b3624"
+        },
+        {
+            "title": "Spider-Man:Life Story",
+               "author": "Chip Zdarsky",
+               "price": "800 INR" ,
+               "img_link": "https://images-us.bookshop.org/ingram/9781302931919.jpg?height=500&v=v2-300d33b42c0e2cb1987e1bb592bf6171" 
+        },
+        {
+            "title": "Deserter: Junji Ito Story Collection",
+               "author": "Junji Ito",
+               "price": "400 INR" ,
+                "img_link": "https://images-us.bookshop.org/ingram/9781974719860.jpg?height=500&v=v2-5dfd9654c035a3d27e4f063e96b51ded"
+        },
+        {
+            "title": "Babylon",
+               "author": "Tomi Ungerer",
+               "price": "400 INR" ,
+               "img_link": "https://images-us.bookshop.org/ingram/9781683964735.jpg?height=500&v=v2"
+        }, 
+        {
+            "title": "Nightwing Vol1: leaping into the light",
+               "author": "Tom Taylor",
+               "price": "500 INR" ,
+               "img_link": "https://images-us.bookshop.org/ingram/9781779512789.jpg?height=500&v=v2-c4f9e85143b10ba8dde1e42aca8095ab"
+        }, 
+        {
+            "title": "The Swamp Thing Volume 1: Becoming",
+               "author": "Ram V and Mike Perkins",
+               "price": "300 INR" ,
+               "img_link": "https://images-us.bookshop.org/ingram/9781779512765.jpg?height=500&v=v2-a30f6027c88d1c62630423c4dd0e79af"
+        },
+        {
+            "title": "Immortal Hulk Vol 10",
+               "author": "Al Ewing",
+               "price": "500 INR" ,
+               "img_link": "https://images-us.bookshop.org/ingram/9781302925987.jpg?height=500&v=v2-50c0e87e4844b2146ff8f28e727f0dde"
+        },
+        {
+            "title": "The Umbrella Academy",
+               "author": "Gerard Way, Gabriel Ba",
+               "price": "1000 INR" ,
+               "img_link": "https://images-us.bookshop.org/ingram/9781506728193.jpg?height=500&v=v2"
+        },
+        {
+            "title": "The True lives of the fabulous Killjoys",
+               "author": "Shaun Simon, Gerard Way",
+               "price": "1000 INR" ,
+               "img_link": "https://images-us.bookshop.org/ingram/9781506725994.jpg?height=500&v=v2"
+        },
+        {
+            "title": "Saga of the Swamp Thing Box Set",
+               "author": "Alan Moore and Various",
+               "price": "1700 INR" ,
+               "img_link":"https://images-us.bookshop.org/ingram/9781779512567.jpg?height=500&v=v2 "
+        },
+        {
+            "title": "Man in Furs",
+               "author": "Anne Simon",
+               "price": "500 INR" ,
+               "img_link": "https://images-us.bookshop.org/ingram/9781683964803.jpg?height=500&v=v2"
+        }
+
+    ]
+}

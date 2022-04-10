@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<%- include('partials/head')%>
+<body>
+    <%- include('partials/navbar')%>
+
+      <!-- Title Section -->
+      <section class="signup-section ">
+        <div class="container-fluid">
+            <div class="title-container">
+                <div class="book-details-container">
+                    <div class="row">
+                        <div class="col-6">
+                            <h4> <%= book.title%></h4>
+                            <p>~<em><%=book.author%></em></p>
+                            <br><br>
+                            <p> Price: <%=book.price%></p>
+                            <br><br><br><br><br><br>
+                            <button onClick="buyBook()" class="btn signup-btn">Buy</button>
+                        </div>
+                        <div class="col-6">
+                            <img class = "book-details-img" src="<%= book.img_link%> " alt="<%= book.name%>">
+                        </div>
+                    </div>
+                    
+                </div>
+                
+            </div>
+        </div>
+      </section>
+
+
+
+      <%- include('partials/footer')%>
+
+
+      <script src="/js/buyBook.js"></script>
+</body>
+</html>

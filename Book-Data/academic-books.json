@@ -1,0 +1,96 @@
+{
+    "name": "Academic Books",
+    "total_books": 15,
+    "books": [
+        {
+            "title": "Cooking the Native Way: Chia Café Collective",
+           "author": "The Chia Cafe Collective",
+           "price": "300 INR" ,
+           "img_link": "https://images-us.bookshop.org/ingram/9781597144186.jpg?height=500&v=v2"
+        },
+        {
+            "title": "Iwígara: American Indian Ethnobotanical Traditions and Science",
+           "author": "Enrique Salmon",
+           "price": "600 INR" ,
+           "img_link": "https://images-us.bookshop.org/ingram/9781604698800.jpg?height=500&v=v2"
+        },
+        {
+            "title": "Indigenous Food Sovereignty in the United States",
+           "author": "Elizabeth Hoover",
+           "price": "500 INR" ,
+           "img_link": "https://images-us.bookshop.org/ingram/9780806163215.jpg?height=500&v=v2"
+        },
+        {
+            "title": "Ethnobotany: A Phytochemical Perspective",
+           "author": "Wiley Blackwell",
+           "price": "1000 INR" ,
+           "img_link": "https://images-us.bookshop.org/ingram/9781118961902.jpg?height=500&v=v2"
+        },
+        {
+            "title": "Plants Have So Much to Give Us, All We Have to Do Is Ask",
+           "author": "Mary Siisip Geniusz and Annmarie Geniusz",
+           "price": "300 INR" ,
+           "img_link": "https://images-us.bookshop.org/ingram/9780816696765.jpg?height=500&v=v2"
+        },
+        {
+            "title": "Gathering Moss: A Natural and Cultural History of Mosses",
+           "author": "Robin Wall Kimmerer",
+           "price": "300 INR" ,
+           "img_link": "https://images-us.bookshop.org/ingram/9780870714993.jpg?height=500&v=v2"
+        },
+        {
+            "title": "Tending the wild",
+           "author": "M. Kat Anderson",
+           "price": "500 INR" ,
+           "img_link": "https://images-us.bookshop.org/ingram/9780520280434.jpg?height=500&v=v2"
+        },
+        {
+            "title": "Braiding Sweetgrass",
+           "author": "Robert Wall Kimmerer",
+           "price": "300 INR" ,
+           "img_link":"https://images-us.bookshop.org/ingram/9781571313560.jpg?height=500&v=v2"
+        },
+        {
+            "title": "Banksy",
+           "author": "Alessandra Mattanza ",
+           "price": "800 INR" ,
+           "img_link": "https://images-us.bookshop.org/ingram/9783791388243.jpg?height=500&v=v2"
+        },
+        {
+            "title": "Manuel Álvarez Bravo: In Color",
+           "author": "Christine Poggi",
+           "price": "1000 INR" ,
+           "img_link": "https://images-us.bookshop.org/ingram/9788417975180.jpg?height=500&v=v2"
+        },
+        {
+            "title": "Picasso: Seven Decades of Drawing",
+           "author": "Olivier Berggruen",
+           "price": "1500 INR" ,
+           "img_link":"https://images-us.bookshop.org/ingram/9780847871803.jpg?height=500&v=v2"
+        },
+        {
+            "title": "Van Gogh and the Artists He Loved",
+           "author": "Steven Naifeh",
+           "price": "800 INR" ,
+           "img_link": "https://images-us.bookshop.org/ingram/9780593356678.jpg?height=500&v=v2"
+        },
+        {
+            "title": "Luisa Roldán",
+           "author": "Catherine Hall",
+           "price": "300 INR" ,
+           "img_link": "https://images-us.bookshop.org/ingram/9781606067321.jpg?height=500&v=v2-42270da897539239ec7cbd689ecab6e4"
+        },
+        {
+            "title": "Vivian Maier Developed: The Untold Story of the Photographer Nanny",
+           "author": "Ann Marks",
+           "price": "1000 INR" ,
+           "img_link": "https://images-us.bookshop.org/ingram/9781982166724.jpg?height=500&v=v2"
+        },
+        {
+            "title": "William Morris",
+           "author": "Anna Morris",
+           "price": "9000 INR" ,
+           "img_link": "https://images-us.bookshop.org/ingram/9780500480502.jpg?height=500&v=v2"
+        }
+    ]
+}

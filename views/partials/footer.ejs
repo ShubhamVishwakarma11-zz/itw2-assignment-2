@@ -1,0 +1,62 @@
+<!-- Footer -->
+<footer class="py-5">
+    <div class="container-fluid">
+        <hr>
+        <div class="row footer-section">
+            <div class="col-8">
+                <a class="navbar-brand" href="#">
+                    <img src="images/logo.png" alt="" width="20" height="auto" class="brand-logo">
+                    <span class="brand-text">Book Yard</span>
+                </a>
+              <ul class="nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="/explore">Explore</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/about-us">About Us</a>
+                  </li>
+      
+                  <% if (loggedIn === false) {%>
+                      
+                      <li class="nav-item">
+                          <a class="nav-link" href="/signup">Sign Up</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="/login">Login</a>
+                      </li> 
+                  <%} else {%>
+                      <li class="nav-item">
+                        <a class="nav-link" href="/book/add">Add Book</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="/logout">Log Out</a>
+                      </li> 
+                  <%}%>
+              </ul>
+            </div>
+      
+            <div class="col-4">
+                <h5>Join us today</h5>
+                <p>Join us today to take full benefits of our library.</p>
+                <div class="d-flex w-100 gap-2">
+                    <% if (loggedIn === false) {%>
+                        <a href="/signup">
+                            <button class="btn signup-btn" type="button">Sign Up</button>
+                        </a>
+                        <a href="/login">
+                            <button class="btn login-btn" type="button">Login</button>
+                        </a>
+                    <%} else {%>
+                        <a href="/logout">
+                            <button class="btn signup-btn" type="button">Logout</button>
+                        </a>
+                    <%}%>
+                    
+                </div>
+            </div>
+          </div>
+          <hr>
+            <p>&copy; 2021 Company, Inc. All rights reserved.</p>
+    </div>
+  
+</footer>

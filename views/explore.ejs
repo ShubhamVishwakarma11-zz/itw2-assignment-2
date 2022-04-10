@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<%- include('partials/head')%>
+
+<body>
+    <%- include('partials/navbar')%> 
+
+      <section class="signup-section ">
+        <div class="container-fluid">
+            <div class="title-container">
+              <h3> Explore our vast library.</h3>
+
+              <div class="explore-container">
+                <h4> Checkout these collections of books </h4>
+
+                <div class="card-deck">
+                  <div class="row">
+                      <div class="col-3 book-card">
+                        <a href="/books/comics">
+                          <div class="book-img-container">
+                            <img class = "book-img" src="https://images.pexels.com/photos/7809122/pexels-photo-7809122.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="book-img">
+                          </div>
+                          <div class="book-text">
+                            <h4 class="book-title"> Comics</h4>
+                          </div>
+                        </a>
+                      </div>
+
+                      <div class="col-3 book-card">
+                        <a href="/books/novels">
+                          <div class="book-img-container">
+                            <img class = "book-img" src="https://images.pexels.com/photos/261859/pexels-photo-261859.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" alt="book-img">
+                          </div>
+                          <div class="book-text">
+                            <h4 class="book-title"> Novels</h4>
+                          </div>
+                        </a>
+                      </div>
+
+                      <div class="col-3 book-card">
+                        <a href="/books/academic-books">
+                          <div class="book-img-container">
+                            <img class = "book-img" src="https://images.pexels.com/photos/1517355/pexels-photo-1517355.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="book-img">
+                          </div>
+                          <div class="book-text">
+                            <h4 class="book-title"> Academic Books</h4>
+                          </div>
+                        </a>
+                      </div>
+  
+                  </div>
+                </div>
+              </div>
+                
+            </div>
+        </div>
+      </section>
+
+          <%- include('partials/footer')%>
+
+
+</body>
+</html>
